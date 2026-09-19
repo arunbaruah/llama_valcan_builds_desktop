@@ -1,0 +1,18 @@
+{
+  "cpu_threads": 4,
+  "batch_threads": 4,
+  "context_size": 4096,
+  "batch_size": 512,
+  "ubatch_size": 128,
+  "gpu_layers": 99,
+  "flash_attention": false,
+  "cache_type_k": "f16",
+  "cache_type_v": "f16",
+  "mmap": true,
+  "no_context_shift": true,
+  "keep": 0,
+  "temperature": 0.2,
+  "top_k": 20,
+  "top_p": 0.9,
+  "repeat_penalty": 1.05
+}
